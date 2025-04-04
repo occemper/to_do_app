@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-<a href="{{ route('tasks.create') }}">Create Task</a>
+<div>
+    <a href="{{ route('tasks.create') }}">Create Task</a>
+</div>
 
 @section('title', 'The list of tasks')
 
